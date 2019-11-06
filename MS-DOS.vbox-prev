@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-windows">
-  <Machine uuid="{0969439d-1d59-4846-81c0-524d664f0e1c}" name="MS-DOS" OSType="DOS" snapshotFolder="Snapshots" lastStateChange="2019-11-06T14:21:31Z">
+  <Machine uuid="{0969439d-1d59-4846-81c0-524d664f0e1c}" name="MS-DOS" OSType="DOS" snapshotFolder="Snapshots" lastStateChange="2019-11-06T15:22:26Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{00afb63b-d0a4-4f13-9c18-5596f463a40b}" location="MS-DOS.vdi" format="VDI" type="Normal"/>
@@ -20,7 +20,8 @@
     <ExtraData>
       <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
       <ExtraDataItem name="GUI/LastGuestSizeHint" value="720,400"/>
-      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="158,56,720,443"/>
+      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="0,23,1920,1017,max"/>
+      <ExtraDataItem name="GUI/Scale" value="true"/>
     </ExtraData>
     <Hardware>
       <CPU>
@@ -55,7 +56,7 @@
       </Network>
       <AudioAdapter controller="SB16" driver="DirectSound" enabled="true"/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="pl_PL" timestamp="1573050064067634500" flags=""/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="pl_PL" timestamp="1573053746935173700" flags=""/>
       </GuestProperties>
     </Hardware>
     <StorageControllers>
